@@ -1,4 +1,4 @@
-import { printerError } from "./6kyu/printerError";
+import { decodeMorse } from "./6kyu/decodeMorse";
 
-printerError("aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbmmmmmmmmmmmmmmmmmmmxyz");
+decodeMorse(".... . -.--   .--- ..- -.. .");
 export {};
