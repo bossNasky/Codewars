@@ -9,6 +9,6 @@ export const digitalRoot = (n: number): number => {
 
     str = reducedArray.toString();
   }
-  console.log(str);
+
   return Number(str);
 };

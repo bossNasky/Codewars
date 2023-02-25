@@ -4,8 +4,8 @@ export function duplicateEncode(word: string) {
     .split("")
     .map((char) =>
       lowerCaseWord.indexOf(char) === lowerCaseWord.lastIndexOf(char)
-        ? ")"
-        : "("
+        ? "("
+        : ")"
     );
   return encoder.join("");
 }
