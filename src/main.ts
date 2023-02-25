@@ -1,9 +1,7 @@
-import { number } from "./7kyu/bus";
+import { kiyoLcm } from "./6kyu/kiyoLcm";
 
-number([
-  [10, 0],
-  [3, 5],
-  [5, 8],
-]);
+const a = [[], [], [], [], [], [], [], [], []];
+
+kiyoLcm(a);
 
 export {};
