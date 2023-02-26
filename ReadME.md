@@ -18,7 +18,7 @@ Codewars sollution challenges.
 
 | Name | Description |
 | ---- | ----------- |
-| 8kyu | 11          |
-| 7kyu | 6           |
-| 6kyu | 8           |
+| 8kyu | 15          |
+| 7kyu | 12          |
+| 6kyu | 10          |
 | 5kyu | 0           |
