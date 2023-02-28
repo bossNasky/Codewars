@@ -1,5 +1,5 @@
-import { nbYear } from "./7kyu/nbYear";
+import { switchItUp } from "./8kyu/switchIt";
 
-nbYear(1000, 2, 50, 1200);
-
+switchItUp(3);
+switchItUp(5);
 export {};
