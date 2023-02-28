@@ -1,5 +1,4 @@
-import { isPangram } from "./6kyu/pangram";
+import { tribonacci } from "./6kyu/tribonacci";
 
-isPangram("The quick brown fox jumps over the lazy dog.");
-isPangram("This is not a pangram.");
+tribonacci([1, 1, 1], 10);
 export {};
