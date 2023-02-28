@@ -1,4 +1,5 @@
-import { wave } from "./6kyu/wave";
+import { isPangram } from "./6kyu/pangram";
 
-wave("two words");
+isPangram("The quick brown fox jumps over the lazy dog.");
+isPangram("This is not a pangram.");
 export {};
