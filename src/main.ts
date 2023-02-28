@@ -1,5 +1,4 @@
-import { switchItUp } from "./8kyu/switchIt";
+import { wave } from "./6kyu/wave";
 
-switchItUp(3);
-switchItUp(5);
+wave("two words");
 export {};
