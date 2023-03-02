@@ -1,4 +1,4 @@
-import { humanReadable } from "./5kyu/humanReadable";
+import { xo } from "./7kyu/xo";
 
-humanReadable(359999);
+xo("xoxoxo");
 export {};
