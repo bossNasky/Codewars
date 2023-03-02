@@ -1,4 +1,4 @@
-import { tribonacci } from "./6kyu/tribonacci";
+import { humanReadable } from "./5kyu/humanReadable";
 
-tribonacci([1, 1, 1], 10);
+humanReadable(359999);
 export {};
