@@ -1,4 +1,4 @@
-import { xo } from "./7kyu/xo";
+import { countSmileys } from "./6kyu/countSmiles";
 
-xo("xoxoxo");
+countSmileys([";]", ":[", ";*", ":$", ";-D"]);
 export {};
