@@ -3,5 +3,5 @@ export const zeroFuel = (
   mpg: number,
   fuelLeft: number
 ): boolean => {
-  return distance > mpg * fuelLeft;
+  return distance <= mpg * fuelLeft;
 };

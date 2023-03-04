@@ -9,11 +9,7 @@ export const isPangram = (phrase: string): boolean => {
 
   charArrays.forEach((char) => {
     if (char.charCodeAt(0) >= 97 && char.charCodeAt(0) <= 122) {
-      if (letters[char]) {
-        letters[char]++;
-      } else {
-        letters[char] = 1;
-      }
+      letters[char] = 1;
     }
   });
 

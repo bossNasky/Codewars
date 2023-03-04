@@ -4,10 +4,9 @@ export function xo(str: string): boolean {
     o: 0,
   };
 
-  const charArray = str.split("");
+  const charArray = str.toLowerCase().split("");
   charArray.forEach((char) => {
     if (char in xoObject) {
-      console.log(xoObject);
       xoObject[char as keyof typeof xoObject]++;
     }
   });

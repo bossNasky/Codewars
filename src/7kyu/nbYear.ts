@@ -6,13 +6,11 @@ export const nbYear = (
 ): number => {
   let beginPopulation = Math.trunc(p0 + p0 * (percent / 100) + aug);
   let years = 1;
-  while (beginPopulation <= p) {
-    console.log(beginPopulation);
+  while (beginPopulation < p) {
     years++;
     beginPopulation = Math.trunc(
       beginPopulation + beginPopulation * (percent / 100) + aug
     );
-    console.log(years);
   }
 
   return years;
